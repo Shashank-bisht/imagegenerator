@@ -1,9 +1,15 @@
 .image-list{
-    columns: 6 200px;
-    column-gap: 10px;
+   
+   display: flex;
+   flex-wrap: wrap;
+    /* display: inline-block; */
 }
 
 img{
-    width:100px;
-    margin-bottom: 10px;
+    width:300px;
+    height: 300px;
+    margin: 35px;
+    border-radius: 21px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+

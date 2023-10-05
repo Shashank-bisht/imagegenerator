@@ -16,6 +16,7 @@ const searchImage = async (term)=>{
         params:{
             // this is query(which type of image our user want example car, games, bikes, etc)
           query: term,
+          per_page: 30,
         }
     })
     // console.log(response)
